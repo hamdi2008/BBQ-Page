@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 1rem;
+    color: #404040;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    
+}
+/* Typography */
+h1{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fff;
+    margin: 2em 0;
+}
+h2{
+    font-size: 1rem;
+    margin: 0;
+}
+
+.intro p{
+    font-weight: 900;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: #F18119;
+}
+.top-text{
+    font-size: 0.5rem;
+    order: -1;
+}
+.main{
+    font-size: .8rem;
+    line-height: 1.5;
+    
+}
+.accent{
+    color: #F18119;
+    margin-bottom: 2em;
+    font-weight: 900;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+.fine-print{
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    margin-top: 1em;
+}
+/* Layout */
+section{
+    width: 50%;
+}
+.intro{
+    background-color: #404040;
+    background-image: url(img/dark-ribs.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    margin: 1em;
+}
+form{
+    margin-top: 1em;
+}
+
+
+input {
+    font-family: inherit;
+    text-align: inherit;
+    margin-bottom: .75em;
+    padding: .25em;
+    border: 1px solid #404040;
+    border-radius: 5px;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to left, #ff713b, #ffa51d);
+    color: white;
+    margin-top: 1em;
+    padding: 1em 7em;
+    display: inline-block;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media (min-width: 800px) {
+    h1{
+        font-size: 3.5rem;
+        margin: 3em 0;
+        
+    }
+    h2{
+        font-size: 1.75rem;
+        
+    }
+    .top-text{
+        font-size: 0.8rem;
+        
+    }
+    .bottom-text{
+       font-size: 1.5rem;
+    }
+    .fine-print{
+        font-size: 0.625rem;
+        
+    }
+    .main{
+        font-size: 1.5rem;
+        margin-bottom: 1em;
+    }
+    .main-content{
+       padding: 6em 0;
+    }
+    form{
+    
+    }
+    input {
+        margin-bottom: .75em;
+        padding: .5em;
+    }
+    
+    button,
+    input{
+        display: flex;
+        margin: 1em auto;
+        font-size: 1rem;
+        
+    }
+
+}
